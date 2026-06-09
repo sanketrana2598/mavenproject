@@ -2,15 +2,42 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="input" value="chrome"/>
     <classes>
       <class name="Alltests.Signintoamazon">
         <methods>
-          <include name="performlogin"/>
+          <include name="performsignin"/>
           <include name="launch"/>
           <include name="close"/>
         </methods>
       </class> <!-- Alltests.Signintoamazon -->
+      <class name="Alltests.Searchshoes">
+        <methods>
+          <include name="searchshoesamazon"/>
+          <include name="launch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Alltests.Searchshoes -->
+      <class name="Alltests.Movetocartpage">
+        <methods>
+          <include name="launch"/>
+          <include name="close"/>
+          <include name="Movtocartpage"/>
+        </methods>
+      </class> <!-- Alltests.Movetocartpage -->
+      <class name="Alltests.Payment">
+        <methods>
+          <include name="launch"/>
+          <include name="Makepayment"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Alltests.Payment -->
+      <class name="Alltests.AddcartandRemove">
+        <methods>
+          <include name="launch"/>
+          <include name="close"/>
+          <include name="Addingcartandremove"/>
+        </methods>
+      </class> <!-- Alltests.AddcartandRemove -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

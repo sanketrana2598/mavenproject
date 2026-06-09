@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="0" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[login successfull]]>
+    </line>
+    <line>
+      <![CDATA[searching successfull]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-05-26T13:37:48 IST" name="Suite" finished-at="2026-05-26T13:38:38 IST" duration-ms="50132">
+  <suite started-at="2026-06-09T13:35:56 IST" name="Suite" finished-at="2026-06-09T13:38:08 IST" duration-ms="131925">
     <groups>
     </groups>
-    <test started-at="2026-05-26T13:37:48 IST" name="Test" finished-at="2026-05-26T13:38:38 IST" duration-ms="50132">
+    <test started-at="2026-06-09T13:35:56 IST" name="Test" finished-at="2026-06-09T13:38:08 IST" duration-ms="131925">
+      <class name="Alltests.AddcartandRemove">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.AddcartandRemove@367ffa75]" started-at="2026-06-09T13:36:52 IST" name="launch" finished-at="2026-06-09T13:36:55 IST" duration-ms="2436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Addingcartandremove()[pri:0, instance:Alltests.AddcartandRemove@367ffa75]" started-at="2026-06-09T13:36:55 IST" name="Addingcartandremove" finished-at="2026-06-09T13:37:07 IST" duration-ms="12500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addingcartandremove -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.AddcartandRemove@367ffa75]" started-at="2026-06-09T13:37:07 IST" name="close" finished-at="2026-06-09T13:37:11 IST" duration-ms="4241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Alltests.AddcartandRemove -->
+      <class name="Alltests.Payment">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Payment@43bc63a3]" started-at="2026-06-09T13:35:56 IST" name="launch" finished-at="2026-06-09T13:35:59 IST" duration-ms="3528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Makepayment()[pri:0, instance:Alltests.Payment@43bc63a3]" started-at="2026-06-09T13:35:59 IST" name="Makepayment" finished-at="2026-06-09T13:36:48 IST" duration-ms="48369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Makepayment -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Payment@43bc63a3]" started-at="2026-06-09T13:36:48 IST" name="close" finished-at="2026-06-09T13:36:52 IST" duration-ms="4379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Alltests.Payment -->
       <class name="Alltests.Signintoamazon">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Signintoamazon@c730b35]" started-at="2026-05-26T13:37:48 IST" name="launch" finished-at="2026-05-26T13:38:05 IST" duration-ms="17514" status="PASS">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Signintoamazon@49438269]" started-at="2026-06-09T13:37:11 IST" name="launch" finished-at="2026-06-09T13:37:14 IST" duration-ms="2546" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,173 +66,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method retried="true" signature="performlogin()[pri:0, instance:Alltests.Signintoamazon@c730b35]" started-at="2026-05-26T13:38:05 IST" name="performlogin" finished-at="2026-05-26T13:38:06 IST" duration-ms="255" status="SKIP">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Driver must be set]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
-at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
-at org.openqa.selenium.interactions.Actions.<init>(Actions.java:61)
-at newpackage.newproject.Homepage.hoverover(Homepage.java:26)
-at Alltests.Signintoamazon.performlogin(Signintoamazon.java:19)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+        <test-method signature="performsignin()[pri:0, instance:Alltests.Signintoamazon@49438269]" started-at="2026-06-09T13:37:14 IST" name="performsignin" finished-at="2026-06-09T13:37:25 IST" duration-ms="11382" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[login successfull]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- performlogin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Signintoamazon@c730b35]" started-at="2026-05-26T13:38:06 IST" name="close" finished-at="2026-05-26T13:38:10 IST" duration-ms="4325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Signintoamazon@c730b35]" started-at="2026-05-26T13:38:10 IST" name="launch" finished-at="2026-05-26T13:38:19 IST" duration-ms="9623" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method retried="true" signature="performlogin()[pri:0, instance:Alltests.Signintoamazon@c730b35]" started-at="2026-05-26T13:38:19 IST" name="performlogin" finished-at="2026-05-26T13:38:20 IST" duration-ms="87" status="SKIP">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Driver must be set]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
-at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
-at org.openqa.selenium.interactions.Actions.<init>(Actions.java:61)
-at newpackage.newproject.Homepage.hoverover(Homepage.java:26)
-at Alltests.Signintoamazon.performlogin(Signintoamazon.java:19)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- performlogin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Signintoamazon@c730b35]" started-at="2026-05-26T13:38:20 IST" name="close" finished-at="2026-05-26T13:38:24 IST" duration-ms="4295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Signintoamazon@c730b35]" started-at="2026-05-26T13:38:24 IST" name="launch" finished-at="2026-05-26T13:38:33 IST" duration-ms="9431" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="performlogin()[pri:0, instance:Alltests.Signintoamazon@c730b35]" started-at="2026-05-26T13:38:33 IST" name="performlogin" finished-at="2026-05-26T13:38:33 IST" duration-ms="145" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Driver must be set]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
-at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
-at org.openqa.selenium.interactions.Actions.<init>(Actions.java:61)
-at newpackage.newproject.Homepage.hoverover(Homepage.java:26)
-at Alltests.Signintoamazon.performlogin(Signintoamazon.java:19)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- performlogin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Signintoamazon@c730b35]" started-at="2026-05-26T13:38:33 IST" name="close" finished-at="2026-05-26T13:38:38 IST" duration-ms="4332" status="PASS">
+        </test-method> <!-- performsignin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Signintoamazon@49438269]" started-at="2026-06-09T13:37:25 IST" name="close" finished-at="2026-06-09T13:37:30 IST" duration-ms="4258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Alltests.Signintoamazon -->
+      <class name="Alltests.Searchshoes">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Searchshoes@1c1bbc4e]" started-at="2026-06-09T13:37:54 IST" name="launch" finished-at="2026-06-09T13:37:56 IST" duration-ms="2291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searchshoesamazon()[pri:0, instance:Alltests.Searchshoes@1c1bbc4e]" started-at="2026-06-09T13:37:56 IST" name="searchshoesamazon" finished-at="2026-06-09T13:38:04 IST" duration-ms="7723" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[searching successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchshoesamazon -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Searchshoes@1c1bbc4e]" started-at="2026-06-09T13:38:04 IST" name="close" finished-at="2026-06-09T13:38:08 IST" duration-ms="4325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Alltests.Searchshoes -->
+      <class name="Alltests.Movetocartpage">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Movetocartpage@ba2f4ec]" started-at="2026-06-09T13:37:30 IST" name="launch" finished-at="2026-06-09T13:37:32 IST" duration-ms="2454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Movtocartpage()[pri:0, instance:Alltests.Movetocartpage@ba2f4ec]" started-at="2026-06-09T13:37:32 IST" name="Movtocartpage" finished-at="2026-06-09T13:37:49 IST" duration-ms="17001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Movtocartpage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Movetocartpage@ba2f4ec]" started-at="2026-06-09T13:37:49 IST" name="close" finished-at="2026-06-09T13:37:54 IST" duration-ms="4424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Alltests.Movetocartpage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

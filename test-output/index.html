@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,40 +92,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Alltests.Signintoamazon" class="method navigator-link" hash-for-method="performlogin">performlogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Alltests.Signintoamazon" class="method navigator-link" hash-for-method="performlogin">performlogin</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Alltests.AddcartandRemove" class="method navigator-link" hash-for-method="Addingcartandremove">Addingcartandremove</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Alltests.Signintoamazon" class="method navigator-link" hash-for-method="performlogin">performlogin</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Alltests.Payment" class="method navigator-link" hash-for-method="Makepayment">Makepayment</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Alltests.Movetocartpage" class="method navigator-link" hash-for-method="Movtocartpage">Movtocartpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Alltests.Signintoamazon" class="method navigator-link" hash-for-method="performsignin">performsignin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Alltests.Searchshoes" class="method navigator-link" hash-for-method="searchshoesamazon">searchshoesamazon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -137,70 +138,81 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">Alltests.Payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Makepayment">
+                  </a> <!-- Makepayment -->
+                  <span class="method-name">Makepayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Alltests.AddcartandRemove</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addingcartandremove">
+                  </a> <!-- Addingcartandremove -->
+                  <span class="method-name">Addingcartandremove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Alltests.Movetocartpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Movtocartpage">
+                  </a> <!-- Movtocartpage -->
+                  <span class="method-name">Movtocartpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">Alltests.Signintoamazon</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="performlogin">
-                  </a> <!-- performlogin -->
-                  <span class="method-name">performlogin</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Driver must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:61)
-	at newpackage.newproject.Homepage.hoverover(Homepage.java:26)
-	at Alltests.Signintoamazon.performlogin(Signintoamazon.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
+                  <a name="performsignin">
+                  </a> <!-- performsignin -->
+                  <span class="method-name">performsignin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Alltests.Signintoamazon</span>
+              <img src="passed.png"/>
+              <span class="class-name">Alltests.Searchshoes</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="performlogin">
-                  </a> <!-- performlogin -->
-                  <span class="method-name">performlogin</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Driver must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:61)
-	at newpackage.newproject.Homepage.hoverover(Homepage.java:26)
-	at Alltests.Signintoamazon.performlogin(Signintoamazon.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="performlogin">
-                  </a> <!-- performlogin -->
-                  <span class="method-name">performlogin</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Driver must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:61)
-	at newpackage.newproject.Homepage.hoverover(Homepage.java:26)
-	at Alltests.Signintoamazon.performlogin(Signintoamazon.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
+                  <a name="searchshoesamazon">
+                  </a> <!-- searchshoesamazon -->
+                  <span class="method-name">searchshoesamazon</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -214,7 +226,11 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;input&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;Alltests.Payment&quot;/&gt;
+      &lt;class name=&quot;Alltests.AddcartandRemove&quot;/&gt;
       &lt;class name=&quot;Alltests.Signintoamazon&quot;/&gt;
+      &lt;class name=&quot;Alltests.Movetocartpage&quot;/&gt;
+      &lt;class name=&quot;Alltests.Searchshoes&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -228,7 +244,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -254,24 +270,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'performlogin')
-data.setCell(0, 2, 'Alltests.Signintoamazon')
-data.setCell(0, 3, 255);
+data.setCell(0, 1, 'Makepayment')
+data.setCell(0, 2, 'Alltests.Payment')
+data.setCell(0, 3, 48369);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'performlogin')
-data.setCell(1, 2, 'Alltests.Signintoamazon')
-data.setCell(1, 3, 145);
+data.setCell(1, 1, 'Movtocartpage')
+data.setCell(1, 2, 'Alltests.Movetocartpage')
+data.setCell(1, 3, 17001);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'performlogin')
-data.setCell(2, 2, 'Alltests.Signintoamazon')
-data.setCell(2, 3, 87);
+data.setCell(2, 1, 'Addingcartandremove')
+data.setCell(2, 2, 'Alltests.AddcartandRemove')
+data.setCell(2, 3, 12500);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'performsignin')
+data.setCell(3, 2, 'Alltests.Signintoamazon')
+data.setCell(3, 3, 11382);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchshoesamazon')
+data.setCell(4, 2, 'Alltests.Searchshoes')
+data.setCell(4, 3, 7723);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 487 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -282,6 +306,18 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchshoesamazon</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">searching successfull</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">performsignin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">login successfull</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -297,44 +333,78 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Alltests.Signintoamazon</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Alltests.Payment</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">performlogin</span>
-                <span class="method-start">17519 ms</span>
+                <span class="method-name">Makepayment</span>
+                <span class="method-start">3528 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">17788 ms</span>
+                <span class="method-start">51906 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Alltests.AddcartandRemove</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch(chrome)</span>
-                <span class="method-start">22117 ms</span>
+                <span class="method-start">56290 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">performlogin</span>
-                <span class="method-start">31741 ms</span>
+                <span class="method-name">Addingcartandremove</span>
+                <span class="method-start">58726 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">31838 ms</span>
+                <span class="method-start">71226 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Alltests.Signintoamazon</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch(chrome)</span>
-                <span class="method-start">36136 ms</span>
+                <span class="method-start">75468 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">performlogin</span>
-                <span class="method-start">45567 ms</span>
+                <span class="method-name">performsignin</span>
+                <span class="method-start">78014 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">45719 ms</span>
+                <span class="method-start">89399 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Alltests.Movetocartpage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">93659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Movtocartpage</span>
+                <span class="method-start">96113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">113116 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Alltests.Searchshoes</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">117544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchshoesamazon</span>
+                <span class="method-start">119835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">127562 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

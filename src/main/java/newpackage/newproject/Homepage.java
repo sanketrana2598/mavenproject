@@ -2,6 +2,7 @@ package newpackage.newproject;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -15,10 +16,25 @@ public class Homepage  {
 	WebDriver w1;
 	WebDriverWait wd = new WebDriverWait(w1,Duration.ofSeconds(5));
 	@FindBy (xpath ="//span[text()='Hello, sign in']")
-	WebElement accountandlists;
+	private WebElement accountandlists;
 	
 	@FindBy (xpath ="//span[text()='Sign in']")
-	WebElement signin;
+	private WebElement signin;
+	
+	@FindBy (id="twotabsearchtextbox")
+	private WebElement searchbox;
+	
+	@FindBy (xpath ="(//button[text()='Add to cart'])[1]")
+	private WebElement clickaddtocart;
+	
+	@FindBy (xpath ="(//div[@id=\"a-popover-content-2\"]/descendant::button)[1]")
+	private WebElement againclickaddcart;
+	
+	@FindBy (xpath ="//span[@data-a-selector=\"decrement-icon\"]")
+	private WebElement removefromcart;
+	
+	@FindBy (linkText ="Go to Cart")
+	private WebElement cartpage;
 	
 	
 	public void hoverover(WebDriver w1)
@@ -31,6 +47,33 @@ public class Homepage  {
 		wd.until(ExpectedConditions.elementToBeClickable(signin));
 		signin.click();
 	}
+	public void searchshoes()
+	{
+		wd.until(ExpectedConditions.visibilityOf(searchbox));
+		searchbox.sendKeys("shoes",Keys.ENTER);
+	}
+	public void Clickaddtocart()
+	{
+		wd.until(ExpectedConditions.elementToBeClickable(clickaddtocart));
+		clickaddtocart.click();
+	}
+	public void againclickaddcart()
+	{
+		wd.until(ExpectedConditions.elementToBeClickable(againclickaddcart));
+		againclickaddcart.click();
+	}
+	public void Removefromcart()
+	{
+		wd.until(ExpectedConditions.elementToBeClickable(removefromcart));
+		removefromcart.click();
+	}
+	public void Cartpage()
+	{
+		wd.until(ExpectedConditions.elementToBeClickable(cartpage));
+		cartpage.click();
+	}
+	
+	
 	
 	public Homepage(WebDriver w1) {
 		

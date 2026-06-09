@@ -4,7 +4,11 @@
   <test  name="Test">
   <parameter name="input" value="chrome"></parameter>
     <classes>
+      <class name="Alltests.Payment"/>
+      <class name="Alltests.AddcartandRemove"/>
       <class name="Alltests.Signintoamazon"/>
+      <class name="Alltests.Movetocartpage"/>
+      <class name="Alltests.Searchshoes"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,12 +1,17 @@
 package Utilities;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class Basetest  extends Ilistners{
@@ -14,13 +19,11 @@ public class Basetest  extends Ilistners{
 	@Parameters("input")
 	@BeforeMethod
 
-	public void launch(String a)  throws InterruptedException
+	public void launch( String a)  throws InterruptedException
 	{
 	if(a.equalsIgnoreCase("chrome"))
 			{ w1 = new ChromeDriver();
-		//ChromeOptions options=new ChromeOptions();
-	//	options.addArguments("disable-notifications");
-	//	 w1 = new ChromeDriver(options);
+		
 			}
 	if(a.equalsIgnoreCase("edge"))
 	{
@@ -36,8 +39,7 @@ public class Basetest  extends Ilistners{
 		w1.get("https://www.amazon.in");
 		
 		w1.manage().window().maximize();
-		Thread.sleep(6000);
-		
+
 	}
 	@AfterMethod
 	public void close() throws InterruptedException
