@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test  name="Test">
-  <parameter name="input" value="chrome"></parameter>
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="Alltests.Payment"/>
+     
       <class name="Alltests.AddcartandRemove"/>
       <class name="Alltests.Signintoamazon"/>
       <class name="Alltests.Movetocartpage"/>
       <class name="Alltests.Searchshoes"/>
+      <class name="Alltests.Payment"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

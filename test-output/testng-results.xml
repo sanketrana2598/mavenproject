@@ -1,109 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[login successfull]]>
-    </line>
-    <line>
-      <![CDATA[searching successfull]]>
-    </line>
   </reporter-output>
-  <suite started-at="2026-06-09T13:35:56 IST" name="Suite" finished-at="2026-06-09T13:38:08 IST" duration-ms="131925">
+  <suite started-at="2026-06-09T14:51:08 IST" name="Suite" finished-at="2026-06-09T14:51:40 IST" duration-ms="32001">
     <groups>
     </groups>
-    <test started-at="2026-06-09T13:35:56 IST" name="Test" finished-at="2026-06-09T13:38:08 IST" duration-ms="131925">
-      <class name="Alltests.AddcartandRemove">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.AddcartandRemove@367ffa75]" started-at="2026-06-09T13:36:52 IST" name="launch" finished-at="2026-06-09T13:36:55 IST" duration-ms="2436" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="Addingcartandremove()[pri:0, instance:Alltests.AddcartandRemove@367ffa75]" started-at="2026-06-09T13:36:55 IST" name="Addingcartandremove" finished-at="2026-06-09T13:37:07 IST" duration-ms="12500" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Addingcartandremove -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.AddcartandRemove@367ffa75]" started-at="2026-06-09T13:37:07 IST" name="close" finished-at="2026-06-09T13:37:11 IST" duration-ms="4241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Alltests.AddcartandRemove -->
-      <class name="Alltests.Payment">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Payment@43bc63a3]" started-at="2026-06-09T13:35:56 IST" name="launch" finished-at="2026-06-09T13:35:59 IST" duration-ms="3528" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="Makepayment()[pri:0, instance:Alltests.Payment@43bc63a3]" started-at="2026-06-09T13:35:59 IST" name="Makepayment" finished-at="2026-06-09T13:36:48 IST" duration-ms="48369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Makepayment -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Payment@43bc63a3]" started-at="2026-06-09T13:36:48 IST" name="close" finished-at="2026-06-09T13:36:52 IST" duration-ms="4379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Alltests.Payment -->
-      <class name="Alltests.Signintoamazon">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Signintoamazon@49438269]" started-at="2026-06-09T13:37:11 IST" name="launch" finished-at="2026-06-09T13:37:14 IST" duration-ms="2546" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="performsignin()[pri:0, instance:Alltests.Signintoamazon@49438269]" started-at="2026-06-09T13:37:14 IST" name="performsignin" finished-at="2026-06-09T13:37:25 IST" duration-ms="11382" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[login successfull]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- performsignin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Signintoamazon@49438269]" started-at="2026-06-09T13:37:25 IST" name="close" finished-at="2026-06-09T13:37:30 IST" duration-ms="4258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Alltests.Signintoamazon -->
-      <class name="Alltests.Searchshoes">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Searchshoes@1c1bbc4e]" started-at="2026-06-09T13:37:54 IST" name="launch" finished-at="2026-06-09T13:37:56 IST" duration-ms="2291" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="searchshoesamazon()[pri:0, instance:Alltests.Searchshoes@1c1bbc4e]" started-at="2026-06-09T13:37:56 IST" name="searchshoesamazon" finished-at="2026-06-09T13:38:04 IST" duration-ms="7723" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[searching successfull]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- searchshoesamazon -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Searchshoes@1c1bbc4e]" started-at="2026-06-09T13:38:04 IST" name="close" finished-at="2026-06-09T13:38:08 IST" duration-ms="4325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Alltests.Searchshoes -->
+    <test started-at="2026-06-09T14:51:08 IST" name="Test" finished-at="2026-06-09T14:51:40 IST" duration-ms="32001">
       <class name="Alltests.Movetocartpage">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Movetocartpage@ba2f4ec]" started-at="2026-06-09T13:37:30 IST" name="launch" finished-at="2026-06-09T13:37:32 IST" duration-ms="2454" status="PASS">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:Alltests.Movetocartpage@292b08d6]" started-at="2026-06-09T14:51:08 IST" name="launch" finished-at="2026-06-09T14:51:12 IST" duration-ms="4177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="Movtocartpage()[pri:0, instance:Alltests.Movetocartpage@ba2f4ec]" started-at="2026-06-09T13:37:32 IST" name="Movtocartpage" finished-at="2026-06-09T13:37:49 IST" duration-ms="17001" status="PASS">
+        <test-method signature="Movtocartpage()[pri:0, instance:Alltests.Movetocartpage@292b08d6]" started-at="2026-06-09T14:51:12 IST" name="Movtocartpage" finished-at="2026-06-09T14:51:36 IST" duration-ms="23318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Movtocartpage -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Movetocartpage@ba2f4ec]" started-at="2026-06-09T13:37:49 IST" name="close" finished-at="2026-06-09T13:37:54 IST" duration-ms="4424" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:Alltests.Movetocartpage@292b08d6]" started-at="2026-06-09T14:51:36 IST" name="close" finished-at="2026-06-09T14:51:40 IST" duration-ms="4393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

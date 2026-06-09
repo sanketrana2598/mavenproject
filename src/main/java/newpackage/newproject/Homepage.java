@@ -24,7 +24,7 @@ public class Homepage  {
 	@FindBy (id="twotabsearchtextbox")
 	private WebElement searchbox;
 	
-	@FindBy (xpath ="//span[@id=\"nav-cart-count\"]/following-sibling::span")
+	@FindBy (xpath ="//button[text()='Add to cart']")
 	private WebElement clickaddtocart;
 	
 	@FindBy (xpath ="(//div[@id=\"a-popover-content-2\"]/descendant::button)[1]")
@@ -33,7 +33,7 @@ public class Homepage  {
 	@FindBy (xpath ="//span[@data-a-selector=\"decrement-icon\"]")
 	private WebElement removefromcart;
 	
-	@FindBy (linkText ="Go to Cart")
+	@FindBy (partialLinkText = "Go to")
 	private WebElement cartpage;
 	
 	
