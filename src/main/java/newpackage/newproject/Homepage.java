@@ -24,7 +24,7 @@ public class Homepage  {
 	@FindBy (id="twotabsearchtextbox")
 	private WebElement searchbox;
 	
-	@FindBy (xpath ="(//button[text()='Add to cart'])[1]")
+	@FindBy (xpath ="//span[@id=\"nav-cart-count\"]/following-sibling::span")
 	private WebElement clickaddtocart;
 	
 	@FindBy (xpath ="(//div[@id=\"a-popover-content-2\"]/descendant::button)[1]")
